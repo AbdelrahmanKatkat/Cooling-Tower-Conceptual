@@ -165,6 +165,8 @@ body{min-height:100vh;background:radial-gradient(1200px 600px at 70% -10%,#0c2a5
   .tabs{flex-wrap:wrap;margin:0}
   .side{grid-row:auto;grid-column:1;margin:12px 14px 0}.side-art{display:none}
   .menu{display:grid;grid-template-columns:1fr 1fr;gap:6px}.menu li{margin:0}
+  .hero{grid-column:1;grid-row:auto;margin:0 14px;height:70px}
+  .hero::before{inset:-20px -14px 0 -14px}
   .grid,.flow{grid-column:1;margin:12px 14px 0}
   .grid{grid-template-columns:1fr;grid-template-areas:"inputs" "types" "config" "preview" "results" "dims" "export"}
   .tiles{grid-template-columns:1fr 1fr}.row{grid-template-columns:1fr 110px 96px;font-size:15px}
